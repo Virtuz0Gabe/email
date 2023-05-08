@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviador de Email</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    
+
+    <section class="container">
+        
+        <img src="img/91848.png" alt="icone de envio">
+        <h1>Vírtuz-Mail</h1>
+        <h2>Envie E-mails de forma rápida!</h2>
+        <div id="form">
+            <form action="email.php" method="POST">
+
+                <label class="label" for="destinatario">Destinatário</label>
+                <input class="input" type="text" id="destinatario" name="destinatario" placeholder=" Digite o Email">
+
+                <label class="label" for="assunto">Assunto</label>
+                <input class="input" type="text" id='assunto' name="assunto" placeholder=" Digite o assunto">
+                
+                <label class="label" for="conteudo">Conteúdo</label>                
+                <textarea name="conteudo" id="conteudo" cols="30" rows="5" placeholder=" Digite aqui o assunto do E-mail"></textarea>
+
+                <button type="submit">ENVIAR</button>
+                <b></b>
+            </form>
+        </div>
+    </section>
+
+
+</body>
+</html>
